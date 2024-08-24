@@ -62,9 +62,10 @@ import Footer from '../components/Navigation/Footer'
   <h2 className='text-7xl font-extrabold text-[#333333] absolute mt-16'>Recent Posts</h2>
 </div>
 <div className='flex justify-center w-5/6  gap-8 '>
-  <div  className='h-[550px] w-[450px] flex flex-col gap-4 bg-white'>
-    <img className='h-[550px] w-[450px]' src="https://preview.colorlib.com/theme/feliciano/images/image_1.jpg" alt="" />
-    <p className='text-xl text-[#0000004D]'>Aug. 03 2024 Admin</p>
+  <div  className='h-[620px] w-[450px] flex flex-col gap-4 bg-white'>
+    <img className='h-[400px] w-[450px]' src="https://preview.colorlib.com/theme/feliciano/images/image_1.jpg" alt="" />
+    <div className='pl-6 flex  flex-col gap-4'>
+        <p className='text-xl text-[#0000004D]'>Aug. 03 2024 Admin</p>
     <p className='text-3xl font-semibold w-96'>Test the delicious foods in Asia</p>
     <div className='flex justify-between'>
       <p className='text-xl'>Read more</p>
@@ -72,26 +73,32 @@ import Footer from '../components/Navigation/Footer'
     <i class="fa-solid fa-message">3</i>
     </div>
     </div>
+  
+    </div>
   </div>
-  <div  className='h-[550px] w-[450px] flex flex-col gap-4 bg-white'>
-    <img className='h-[550px] w-[450px]' src="https://preview.colorlib.com/theme/feliciano/images/image_2.jpg" alt="" />
-    <p className='text-xl text-[#0000004D]'>Aug. 03 2024 Admin</p>
+  <div  className='h-[620px] w-[450px] flex flex-col gap-4 bg-white'>
+    <img className='h-[400px] w-[450px]' src="https://preview.colorlib.com/theme/feliciano/images/image_2.jpg" alt="" />
+    <div  className='pl-6 flex  flex-col gap-4'>
+       <p className='text-xl text-[#0000004D]'>Aug. 03 2024 Admin</p>
     <p className='text-3xl font-semibold w-96'>Test the delicious foods in Asia</p>
     <div className='flex justify-between'>
       <p className='text-xl'>Read more</p>
     <div className='text-[#0000004D] pr-4'>
     <i class="fa-solid fa-message">3</i>
+    </div> 
     </div>
     </div>
   </div>
-  <div  className='h-[550px] w-[450px] flex flex-col gap-4 bg-white'>
-    <img className='h-[550px] w-[450px]' src="https://preview.colorlib.com/theme/feliciano/images/image_3.jpg" alt="" />
-    <p className='text-xl text-[#0000004D]'>Aug. 03 2024 Admin</p>
+  <div  className='h-[620px] w-[450px] flex flex-col gap-4 bg-white'>
+    <img className='h-[400px] w-[450px]' src="https://preview.colorlib.com/theme/feliciano/images/image_3.jpg" alt="" />
+    <div className='pl-6 flex  flex-col gap-4' >
+        <p className='text-xl text-[#0000004D]'>Aug. 03 2024 Admin</p>
     <p className='text-3xl font-semibold w-96'>Test the delicious foods in Asia</p>
     <div className='flex justify-between'>
       <p className=' text-xl'>Read more</p>
     <div className='text-[#0000004D] pr-4'>
     <i class="fa-solid fa-message">3</i>
+    </div>
     </div>
     </div>
   </div>
